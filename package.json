@@ -1,0 +1,27 @@
+{
+  "name": "gitprgen",
+  "version": "1.0.0",
+  "description": "AI-powered PR description generator from git diffs",
+  "type": "module",
+  "bin": {
+    "gitprgen": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["git", "pull-request", "pr", "ai", "cli", "github", "gitlab"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "ora": "^9.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
