@@ -1,19 +1,37 @@
 {
   "name": "gitprgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered PR description generator from git diffs",
   "type": "module",
   "bin": {
     "gitprgen": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js"
   },
-  "keywords": ["git", "pull-request", "pr", "ai", "cli", "github", "gitlab"],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenihDev/gitprgen.git"
+  },
+  "homepage": "https://github.com/BenihDev/gitprgen#readme",
+  "bugs": {
+    "url": "https://github.com/BenihDev/gitprgen/issues"
+  },
+  "keywords": [
+    "git",
+    "pull-request",
+    "pr",
+    "ai",
+    "cli",
+    "github",
+    "gitlab"
+  ],
+  "author": "fanioz <fanio.zilla@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "commander": "^14.0.3",
