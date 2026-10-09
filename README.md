@@ -2,6 +2,8 @@
 
 AI-powered PR description generator. Generates clear, structured pull request descriptions from your git diffs.
 
+> **gitprgen is a free, open-source CLI tool by [BenihKode](https://www.benihkode.web.id/tools/gitprgen/)** — a solo developer studio that ships small, focused dev tools. Full docs, examples, and the rest of the toolset live at [benihkode.web.id](https://www.benihkode.web.id/tools/).
+
 ## Install
 
 ```bash
@@ -53,6 +55,16 @@ Create `~/.gitprgen.json` to set defaults:
 3. Sends everything to an LLM
 4. Outputs a structured PR description (summary, changes, testing)
 
+## Links
+
+- **Website & docs:** [benihkode.web.id/tools/gitprgen](https://www.benihkode.web.id/tools/gitprgen/)
+- **All BenihKode tools:** [benihkode.web.id/tools](https://www.benihkode.web.id/tools/)
+- **Build story:** [Building gitprgen](https://www.benihkode.web.id/blog/building-gitprgen/)
+
 ## License
 
 MIT
+
+---
+
+Part of the [BenihKode](https://www.benihkode.web.id) developer toolset.
